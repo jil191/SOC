@@ -1,0 +1,67 @@
+Cyber Security Framework
+
+1) Identify
+2) Protect
+3) Detect
+4) Respond
+5) Recovery
+
+
+SECURITY OPERATION CENTER
+
+-> SOC TEAM
+
+-> Tier-1 Analyst(Alert Investigator)
+
+-Monitor SIEM alerts
+-Manges and configures security Monitoring tools
+-Alert priority
+-Perform triage to confirm real security incident is taking place
+
+-> Tier-2 Analyst(Incident Responder)
+
+- Receives incident and perform deep analysis
+-Correlate with threat intelligence to identify threat actor
+-Nature of the attack
+-decide strategy for containment
+-data and systems affected
+-remediation and recovery
+
+
+-> Tier-3 Analyst (SME / Threat Hunter)
+-Vulnerability Assessment
+-Penetration Testing
+-Threat intelligence
+-Threat Hunter
+
+->Security Engineers(Platform Management)
+-Automated tools
+-Integration btwn secureity controls and siem
+
+-> SOC Manager
+-Responsible for hiring and training SOC staff
+-Manage resources
+-Manage team when 
+
+SOC PROCESS
+-Log source management 
+-SIEM management 
+-Use case management
+-Playback mnagement
+-Event management
+-Incident Management
+-Vulnerability Management
+
+SOC PLATFORM
+ SIEM-Security information and event management
+ SOAR - Security orchestrtation, Automation and response
+ VMDR - Vulnerability Management, Detection and response
+ NDR - Network Detection and Response
+ EDR- End-point Detection and response
+ TIP - Threat Intelligence Platform
+
+BASICS OF NETWORKING
+LAN - Ethernets , Routers
+MAN - 
+WAN
+
