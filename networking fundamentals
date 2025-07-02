@@ -1,0 +1,29 @@
+SSL/TLS Works with TCP
+
+SSL & TLS - encryption protocols that sit on top of TCP, provide confidentiality, integrity and authentication for data transmitted
+TCP handles reliable delivery while SSL/TLS handles secure encryption of that data
+
+-> SSL/TLS HANDSHAKE
+
+-> TCP - Transmission Control Prototcol
+- ensures reliable, ordered and error checked delivery over a network
+- packet loss doesnt happen
+
+-> TCP 3-Way Handshake 
+-> TCP Conection States
+-> TCP FLAGS
+
+
+
+-> OSI Model
+
+application - 
+presentation
+session 
+transport -  
+
+network - responsible for routing packets transmitted through routers
+
+data link - responsible for node to node delivery 
+
+physical - transmits raw bits over physical media
