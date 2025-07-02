@@ -4,6 +4,11 @@ SSL & TLS - encryption protocols that sit on top of TCP, provide confidentiality
 TCP handles reliable delivery while SSL/TLS handles secure encryption of that data
 
 -> SSL/TLS HANDSHAKE
+  - client send Hello message 
+  - server responds with hello
+  - Server certificate is generated
+  - Keys are exchanged
+  - Symmetric encryption is achieved
 
 -> TCP - Transmission Control Prototcol
 - ensures reliable, ordered and error checked delivery over a network
@@ -14,16 +19,16 @@ TCP handles reliable delivery while SSL/TLS handles secure encryption of that da
 -> TCP FLAGS
 
 
-
--> OSI Model
+-> OSI Model - Open Systems Interconnection
 
 application - 
-presentation
-session 
-transport -  
+presentation - 
+session - 
 
-network - responsible for routing packets transmitted through routers
+transport -  converts packets to segments
 
-data link - responsible for node to node delivery 
+network - responsible for routing packets transmitted through routers, converting frame to packets
+
+data link - responsible for node to node delivery , converting bit to frame
 
 physical - transmits raw bits over physical media
